@@ -3,7 +3,7 @@ import pandas as pd
 import pydeck as pdk
 from snowflake.snowpark import Session
 
-SNOWFLAKE_ACCOUNT=FZGJWGR-FW92534
+SNOWFLAKE_ACCOUNT='FZGJWGR-FW92534'
 SNOWFLAKE_USER=Umarfarook
 SNOWFLAKE_PASSWORD=Umarfarook@112002
 SNOWFLAKE_AUTHENTICATOR=snowflake
