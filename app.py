@@ -2,15 +2,15 @@ import streamlit as st
 import pandas as pd
 import pydeck as pdk
 from snowflake.snowpark import Session
-from credentials import (
-    SNOWFLAKE_ACCOUNT,
-    SNOWFLAKE_USER,
-    SNOWFLAKE_PASSWORD,
-    SNOWFLAKE_AUTHENTICATOR,
-    SNOWFLAKE_WAREHOUSE,
-    SNOWFLAKE_DATABASE,
-    SNOWFLAKE_SCHEMA,
-)
+
+SNOWFLAKE_ACCOUNT=FZGJWGR-FW92534
+SNOWFLAKE_USER=Umarfarook
+SNOWFLAKE_PASSWORD=Umarfarook@112002
+SNOWFLAKE_AUTHENTICATOR=snowflake
+SNOWFLAKE_WAREHOUSE=COMPUTE_WH
+SNOWFLAKE_DATABASE=HERO_CHALLEGE
+SNOWFLAKE_SCHEMA=PUBLIC
+
 
 st.set_page_config(page_title="Incredible India – Cultural Explorer", layout="wide")
 
